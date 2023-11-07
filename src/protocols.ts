@@ -10,3 +10,13 @@ export type RequestError = {
   name: string;
   message: string;
 };
+
+export type Cep = string;
+
+export type GetAddress = {
+  logradouro: string;
+  complemento: string;
+  bairro: string;
+  cidade: string;
+  uf: string;
+};
